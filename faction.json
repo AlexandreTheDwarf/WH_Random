@@ -150,6 +150,12 @@
         "Personnage": "Grombrindal"     
     },
     {
+        "image": "./img/Dwarfs/Karak_Kadrin.webp",
+        "races": "Dwarfs",
+        "Factions": "Masters of Innovation",
+        "Personnage": "Malakai Makaisson"     
+    },
+    {
         "image": "./img/empire/Cult_of_Sigmar.webp",
         "races": "Empire",
         "Factions": "Cult of Sigmar",
@@ -172,6 +178,12 @@
         "races": "Empire",
         "Factions": "The Huntsmarshal's Expedition",
         "Personnage": "Markus Wulfhart"     
+    },
+    {
+        "image": "./img/empire/Wissenland.webp",
+        "races": "Empire",
+        "Factions": "Wissenland & Nuln",
+        "Personnage": "Elspeth von Draken"     
     },
     {
         "image": "./img/Greenskins/Bonerattlaz.webp",
@@ -334,6 +346,18 @@
         "races": "Nurgle",
         "Factions": "Poxmakers of Nurgle",
         "Personnage": "Ku'gath Plaguefather"     
+    },
+    {
+        "image": "./img/nurgle/Poxmakers_of_Nurgle.webp",
+        "races": "Nurgle",
+        "Factions": "Tallymen of Pestilence",
+        "Personnage": "Epidemius"     
+    },
+    {
+        "image": "./img/nurgle/Poxmakers_of_Nurgle.webp",
+        "races": "Nurgle",
+        "Factions": "The Maggot Host",
+        "Personnage": "Tamurkhan"     
     },
     {
         "image": "./img/Ogre Kingdoms/Disciples_of_the_Maw.webp",
