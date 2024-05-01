@@ -150,7 +150,7 @@
         "Personnage": "Grombrindal"     
     },
     {
-        "image": "./img/Dwarfs/Karak_Kadrin.webp",
+        "image": "./img/Dwarfs/Masters_of_Innovation.webp",
         "races": "Dwarfs",
         "Factions": "Masters of Innovation",
         "Personnage": "Malakai Makaisson"     
@@ -348,13 +348,13 @@
         "Personnage": "Ku'gath Plaguefather"     
     },
     {
-        "image": "./img/nurgle/Poxmakers_of_Nurgle.webp",
+        "image": "./img/nurgle/Tallymen_of_Pestilence.webp",
         "races": "Nurgle",
         "Factions": "Tallymen of Pestilence",
         "Personnage": "Epidemius"     
     },
     {
-        "image": "./img/nurgle/Poxmakers_of_Nurgle.webp",
+        "image": "./img/nurgle/The_Maggot_Host.webp",
         "races": "Nurgle",
         "Factions": "The Maggot Host",
         "Personnage": "Tamurkhan"     
