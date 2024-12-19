@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./styles/fonts/Enchanted Land.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "MedievalSharp", cursive;
+  overflow-y: hidden;
+  background-image: url("../img/modal.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.factions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  overflow-y: auto;
+}
+.factions .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 200px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.factions .card .card-header {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+}
+.factions .card .card-header h2 {
+  font-size: 1.5rem;
+}
+.factions .card .card-body {
+  width: 100%;
+}
+.factions .card .card-body img {
+  width: 100%;
+  height: 100%;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter input {
+  display: none;
+}
+.filter input:checked + label {
+  font-weight: bold;
+  color: red;
+}
+.filter ul {
+  margin: 10px;
+}
+.filter ul label {
+  padding: 10px;
+  cursor: pointer;
+}
+.filter #random-button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url("../img/random.svg");
+  background-size: cover; /* Pour ajuster la taille de l'image au bouton */
+  border: none; /* Supprimez les bordures par défaut du bouton si nécessaire */
+  cursor: pointer; /* Changez le curseur lorsque vous survolez le bouton */
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+.modal .modal-content {
+  background-color: #ffffff;
+  margin: 5% auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.modal .modal-content .faction-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal .modal-content .faction-details #random-faction-name {
+  font-size: 30px;
+  padding: 1%;
+  margin: 0;
+  text-align: center;
+}
+.modal .modal-content .faction-details #random-faction-image {
+  width: 80%;
+  height: 80%;
+  padding: 0%;
+  margin: 0;
+}
+.modal .modal-content .faction-details #random-faction-leader {
+  padding: 1%;
+  margin: 0;
+}
+.modal .modal-content .close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal .modal-content .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

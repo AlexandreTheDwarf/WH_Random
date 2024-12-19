@@ -216,6 +216,12 @@
         "Personnage": "Wurrzag da Great Green Prophet"     
     },
     {
+        "image": "./img/Greenskins/Ironclaw_Orcs.webp",
+        "races": "Greenskins",
+        "Factions": "Ironclaw Orcs",
+        "Personnage": "Gorbad Ironclaw"     
+    },
+    {
         "image": "./img/High Elves/Avelorn.webp",
         "races": "High Elves",
         "Factions": "Avelorn",
@@ -256,6 +262,18 @@
         "races": "Khorne",
         "Factions": "Exiles of Khorne",
         "Personnage": "Skarbrand the Exiled"     
+    },
+    {
+        "image": "./img/khorne/Blooded_Wanderers.webp",
+        "races": "Khorne",
+        "Factions": "Blooded Wanderers",
+        "Personnage": "Skulltaker"     
+    },
+    {
+        "image": "./img/khorne/Challengers_of_Khorne.webp",
+        "races": "Khorne",
+        "Factions": "Challengers of Khorne",
+        "Personnage": "Arbaal the Undefeated"     
     },
     {
         "image": "./img/Kislev/The_Great_Orthodoxy.webp",
@@ -370,6 +388,12 @@
         "races": "Ogre Kingdoms",
         "Factions": "Goldtooth",
         "Personnage": "Greasus Goldtooth"     
+    },
+    {
+        "image": "./img/Ogre Kingdoms/The_Maneaters.webp",
+        "races": "Ogre Kingdoms",
+        "Factions": "The Maneaters",
+        "Personnage": "Golgfag Maneater"     
     },
     {
         "image": "./img/skaven/Clan Eshin.webp",
